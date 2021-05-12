@@ -31,3 +31,33 @@
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
 }
+
+.principale{
+    overflow: auto;
+}
+
+.evidenza{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.evidenza li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.recentplay{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.song img{
+    width: 200px;
+    height: auto;
+}
+
+.titoli{
+    text-align: center;
+}
