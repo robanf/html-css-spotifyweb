@@ -60,4 +60,11 @@
 
 .titoli{
     text-align: center;
+    width: 200px;
+    color: white;
+}
+
+.autor{
+    text-align: center;
+    color: gray;
 }
