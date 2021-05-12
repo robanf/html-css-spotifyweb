@@ -1,0 +1,33 @@
+.box{
+    height: 100vh;
+}
+
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: royalblue;
+}
+
+.top-bar{
+    margin: auto;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.update{
+    margin-top: 30px;
+    margin-right: 20px;
+    position: fixed;
+    border: 1px solid white;
+    padding: 10px 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
