@@ -1,5 +1,5 @@
 .box{
-    height:100vh;
+    height:calc((100%-200px));
     width: auto;
 }
 
@@ -86,4 +86,20 @@
 
 .for-you{
     margin-left: 10px;
+}
+
+.artisti{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+    background-color: black;
 }
