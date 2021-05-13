@@ -5,6 +5,7 @@
 
 .sx{
     width: 200px;
+    color: lightgray;
 }
 
 .dx{
@@ -18,6 +19,11 @@
 
 .upper-sidebar{
     margin-left: 10px;
+
+}
+
+ul{
+    list-style: none;
 }
 
 .lower-sidebar{
@@ -57,11 +63,11 @@
 }
 
 .red{
-    background-color: red;
+    background-color: black;
 }
 
 .blue{
-    background-color: royalblue;
+    background-color: rgb(32, 32, 32);
 }
 
 .top-bar{
@@ -116,10 +122,13 @@
     margin-bottom: 10px;
     flex-shrink: 0;
     flex-wrap: wrap;
+    margin-left: 10px;
+    width: 180px;
+    height: auto;
 }
 
 .song img{
-    margin-left: 10px;
+    
     width: 180px;
     height: auto;
 }
@@ -128,6 +137,14 @@
     text-align: center;
     width: 200px;
     color: white;
+}
+
+h2{
+    color: white;
+}
+
+.evidenza li{
+    color: grey;
 }
 
 .autor{
@@ -166,5 +183,5 @@ footer{
     height: 100px;
     width: 100%;
     z-index: 2;
-    background-color: black;
+    background-color: green;
 }
