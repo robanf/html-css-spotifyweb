@@ -3,13 +3,14 @@
     width: auto;
 }
 
-/* .sx{
+.sx{
     width: 200px;
 }
 
 .dx{
     width: calc((100% - 200px));
-} */
+    
+}
 
 .left-nav{
     position: relative;
@@ -22,11 +23,18 @@
 .lower-sidebar{
     margin-left: 10px;
     margin-right: 10px;
-    position: absolute;
-    bottom: 100px;
+    height: 80px;
     
 }
+.logo img{
+    width: auto;
+    height: 50px;
+}
 
+.upper-sidebar{
+    min-height: calc(100% - 50px);
+    
+}
 
 
 
