@@ -50,9 +50,19 @@
 }
 
 .recentplay{
-   
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-shrink: 0;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.song{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .song img{
@@ -74,7 +84,8 @@
 
 .playlist{
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 20px;
     
@@ -90,7 +101,8 @@
 
 .artisti{
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 100px;
 }
