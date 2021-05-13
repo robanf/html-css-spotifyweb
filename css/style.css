@@ -3,6 +3,50 @@
     width: auto;
 }
 
+/* .sx{
+    width: 200px;
+}
+
+.dx{
+    width: calc((100% - 200px));
+} */
+
+.left-nav{
+    position: relative;
+}
+
+.upper-sidebar{
+    margin-left: 10px;
+}
+
+.lower-sidebar{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 100px;
+    
+}
+
+
+
+
+.new-playlist i{
+    font-size: 30px;
+    vertical-align: center;
+}
+
+.mauro{
+    align-items: center;
+}
+
+.new-playlist{
+    overflow: hidden;
+}
+
+.new-playlist ul{
+    height: 150px;
+    overflow: auto;
+}
 
 .red{
     background-color: red;
@@ -41,6 +85,7 @@
 .evidenza{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-bottom: 20px;
 }
 
