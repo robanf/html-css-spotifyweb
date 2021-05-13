@@ -1,5 +1,5 @@
 .box{
-    height:calc((100%-200px));
+    height:calc((100vh - 100px));
     width: auto;
 }
 
@@ -23,9 +23,9 @@
 }
 
 .update{
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-bottom: 30px;
+    position: fixed;
+    top:30px;
+    right: 20px;
     border: 1px solid white;
     padding: 10px 40px;
     color: white;
@@ -50,14 +50,14 @@
 }
 
 .recentplay{
-    display: flex;
-    justify-content: space-around;
+   
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .song img{
-    width: 200px;
+    margin-left: 10px;
+    width: 180px;
     height: auto;
 }
 
@@ -92,7 +92,7 @@
     display: flex;
     justify-content:flex-start;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 footer{
