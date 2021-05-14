@@ -180,19 +180,22 @@ h2{
     margin-bottom: 100px;
 }
 
+
+
+.bar-play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer{
     position: fixed;
     bottom: 0;
     height: 100px;
     width: 100%;
     z-index: 2;
-    background-color: green;
-}
-
-.bar-play{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #181818;
+    border-top: 1px solid #282828;
 }
 
 .left ,.center ,.right {
@@ -233,4 +236,69 @@ footer{
 }
 .simb *{
     margin-left: 10px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-evenly;
+}
+
+.tast-play{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+}
+
+.temp{
+   margin: 0 10px;
+   color: white;
+}
+.music-bar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#time-bar{
+    width: 400px;
+    height: 5px;
+    background-color: lightslategray;
+    border-radius: 30px;
+    border: 1px solid none;
+}
+
+#moment-bar{
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    vertical-align: middle;
+}
+
+.right i{
+    margin: 0 10px;
+    color: white;
+}
+
+#volume-bar{
+    width: 100px;
+    height: 5px;
+    background-color: lightslategray;
+    border-radius: 30px;
+    border: 1px solid none;
+    margin-right: 20px;
+}
+
+#momvol-bar{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    vertical-align: middle;
 }
