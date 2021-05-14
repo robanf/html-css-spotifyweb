@@ -28,9 +28,14 @@ ul{
 
 .lower-sidebar{
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     height: 80px;
     
+}
+
+.lower-sidebar img{
+    width: auto;
+    height: 12px;
 }
 .logo img{
     width: auto;
