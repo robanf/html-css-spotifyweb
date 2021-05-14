@@ -188,3 +188,49 @@ footer{
     z-index: 2;
     background-color: green;
 }
+
+.bar-play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left ,.center ,.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.play img{
+     width: 50px;
+     height: auto;
+     display: inline-block;
+}
+
+.scritte{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.tit{
+    color: white;
+}
+
+.art{
+    color: lightslategray;
+}
+
+.simb{
+    margin-left: 20px;
+    color: lightslategray;
+}
+.simb *{
+    margin-left: 10px;
+}
