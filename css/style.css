@@ -4,8 +4,149 @@
 }
 
 .sx{
-    width: 200px;
+    width: 50px;
     color: lightgray;
+}
+
+.new-playlist{
+    
+    display:none;
+}
+
+.logo img{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: auto;
+}
+
+.upper-sidebar{
+    min-height: calc(100% - 50px);
+}
+
+.left-nav img{
+    margin-left: 15px;
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+.left-nav span{
+    display: none;
+}
+
+.lower-sidebar img{
+    margin-left: 15px;
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+
+.lower-sidebar div span{
+    display: none;
+}
+
+
+
+@media screen and (min-width:576px) {
+    .sx{
+        width: 200px;
+        color: lightgray;
+    }
+
+    .red *{
+        display: block;
+    }
+
+    .logo img{
+        margin-left: 0px;
+    }
+
+    .logo{
+        content: url("../spotify/img/logo.svg");
+        width: auto;
+        height: 50px;
+    }
+
+    .left-nav img{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .left-nav span{
+        display: inline-block;
+    }
+
+    .lower-sidebar img{
+        
+        display: inline-block;
+    }
+
+    .lower-sidebar div span{
+        display: inline-block;
+    }
+
+    .left-nav{
+        position: relative;
+    }
+    
+    .upper-sidebar{
+        margin-left: 10px;
+    
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    .lower-sidebar{
+        margin-left: 10px;
+        margin-right: 20px;
+        height: 80px;
+        
+    }
+    
+    .lower-sidebar img{
+        width: auto;
+        height: 12px;
+    }
+   
+    
+    .upper-sidebar{
+        min-height: calc(100% - 50px);
+        
+    }
+    
+    li img{
+        height: 20px;
+        width: auto;
+    }
+    
+    .new-playlist i{
+        font-size: 30px;
+        vertical-align: center;
+    }
+    
+    .plus{
+        align-items: center;
+        
+    }
+    
+    .new-playlist{
+        overflow: hidden;
+    }
+    
+    .new-playlist ul{
+        height: 150px;
+        overflow: auto;
+    }
+
+    .top-bar{
+        
+        width: calc(100% - 200px);
+       
+        
+    }
 }
 
 .dx{
@@ -13,7 +154,9 @@
     
 }
 
-.left-nav{
+
+
+/* .left-nav{
     position: relative;
 }
 
@@ -57,8 +200,9 @@ li img{
     vertical-align: center;
 }
 
-.mauro{
+.plus{
     align-items: center;
+    
 }
 
 .new-playlist{
@@ -69,7 +213,7 @@ li img{
     height: 150px;
     overflow: auto;
 }
-
+ */
 .red{
     background-color: black;
 }
@@ -81,7 +225,7 @@ li img{
 .top-bar{
     position: fixed;
     height: 90px;
-    width: calc(100% - 200px);
+    width: calc(100% - 50px);
     background-color: rgba(0, 0, 0, 0.5);
     
 }
@@ -115,7 +259,7 @@ li img{
     margin: 0 10px;
 }
 
-.recentplay{
+/* .recentplay{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -133,11 +277,11 @@ li img{
     text-align: center;
     width: 180px;
 
-}
+} */
 
 .song img{
     
-    width: 180px;
+    width: 200px;
     height: auto;
 }
 
