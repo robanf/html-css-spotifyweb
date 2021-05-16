@@ -29,6 +29,7 @@
     display: block;
     height: 20px;
     width: auto;
+    margin-bottom: 10px;
 }
 
 .left-nav span{
@@ -40,6 +41,7 @@
     display: block;
     height: 20px;
     width: auto;
+    
 }
 
 
@@ -67,11 +69,12 @@
         content: url("../spotify/img/logo.svg");
         width: auto;
         height: 50px;
+        margin-bottom: 10px;
     }
 
     .left-nav img{
         display: inline-block;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .left-nav span{
         display: inline-block;
@@ -155,65 +158,6 @@
 }
 
 
-
-/* .left-nav{
-    position: relative;
-}
-
-.upper-sidebar{
-    margin-left: 10px;
-
-}
-
-ul{
-    list-style: none;
-}
-
-.lower-sidebar{
-    margin-left: 10px;
-    margin-right: 20px;
-    height: 80px;
-    
-}
-
-.lower-sidebar img{
-    width: auto;
-    height: 12px;
-}
-.logo img{
-    width: auto;
-    height: 50px;
-}
-
-.upper-sidebar{
-    min-height: calc(100% - 50px);
-    
-}
-
-li img{
-    height: 20px;
-    width: auto;
-}
-
-.new-playlist i{
-    font-size: 30px;
-    vertical-align: center;
-}
-
-.plus{
-    align-items: center;
-    
-}
-
-.new-playlist{
-    overflow: hidden;
-}
-
-.new-playlist ul{
-    height: 150px;
-    overflow: auto;
-}
- */
 .red{
     background-color: black;
 }
