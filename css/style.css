@@ -172,11 +172,12 @@
 }
 
 .blue{
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(17 12 26);
 }
 
 .top-bar{
     position: fixed;
+    z-index: 1;
     height: 90px;
     width: calc(100% - 50px);
     background-color: rgba(0, 0, 0, 0.5);
@@ -220,9 +221,14 @@
     border-radius: 3px;
 }
 
+.recentplay{
+    margin-bottom: 20px;
+}
+
 .song img{
     width: 90%;
     height: auto;
+    margin-left: 10px;
 }
 .song-hover{
     position: relative;
@@ -252,8 +258,14 @@
     color: white;
 }
 
+.gray{
+    color: lightgray;
+    margin-left: 10px;
+}
+
 h2{
     color: white;
+    margin-left:10px;
 }
 
 .evidenza li{
@@ -276,6 +288,7 @@ h2{
 .for-you img{
     width: 90%;
     height: auto;
+    margin-left: 10px;
 }
 
 
