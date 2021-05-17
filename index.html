@@ -33,7 +33,7 @@
 
                             <div class="new-playlist">
                                 <h2>Playlist</h2>
-                                <div class="row plus"><i class="fas fa-plus-square"></i> Crea playlist</div>
+                                <div class="row plus"><i class="fas fa-plus-square"></i>Crea playlist</div>
                                 <ul>
                                     <li>nome playlist</li>
                                     <li>nome playlist</li>
@@ -85,7 +85,10 @@
                             <!-- canzoni -->
                             <div class="recentplay row">
                                 <div class="col-xs-6 col-md-3 col-lg-2 song ">
-                                    <img src="spotify/img/metal_lifting.jpg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/metal_lifting.jpg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
                                     <div class="titoli">
                                         <strong>heavy meetal</strong> 
                                     </div>
@@ -94,28 +97,41 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-6  col-md-3 col-lg-2 song ">
-                                    <img src="spotify/img/stranger.jpeg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/stranger.jpeg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    
                                     <div class="titoli">
                                         <strong>Stranger things, Vol. 1(a Netflix Original Series Soundtrack</strong> 
                                     </div>
                                     <div class="autor">Kyle Dixon & Michael Stein</div>
                                 </div>
                                 <div class="col-xs-6 col-md-3 col-lg-2 song ">
-                                    <img src="spotify/img/aquietplace.jpeg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/aquietplace.jpeg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
                                     <div class="titoli">
                                         <strong>A quiet place</strong> 
                                     </div>
                                     <div class="autor">Subtitle</div>
                                 </div>
                                 <div class="col-xs-6 col-md-3 col-lg-2 song ">
-                                    <img src="spotify/img/split.jpeg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/split.jpeg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
                                     <div class="titoli">
                                         <strong>Split</strong> 
                                     </div>
                                     <div class="autor">Subtitle </div>
                                 </div>
                                 <div class="col-xs-6 col-md-3 col-lg-2 song ">
-                                    <img src="spotify/img/cure.jpeg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/cure.jpeg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
                                     <div class="titoli">
                                         <strong>A cure for wellness</strong> 
                                     </div>
@@ -124,7 +140,10 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-md-3 col-lg-2 song ">
-                                    <img src="spotify/img/sinister.jpeg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/sinister.jpeg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
                                     <div class="titoli">
                                         <strong>Sinister</strong> 
                                     </div>
@@ -137,11 +156,17 @@
                             <h2>Creato per Pippo Baudo</h2>
                             <div class="playlist">
                                <div class="col-xs-6 col-md-3 col-lg-2 for-you">
-                                   <img src="spotify/img/radar.jpeg" alt="">
+                                <div class="song-hover">
+                                    <img src="spotify/img/radar.jpeg" alt="">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
                                    <div class="titoli">Release Radar</div>
                                </div>
                                <div class="col-xs-6 col-md-3 col-lg-2 for-you">
+                                <div class="song-hover">
                                     <img src="spotify/img/mixdaily.jpeg" alt="">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
                                     <div class="titoli">Daily Mix 1</div>
                                 </div>
                             </div>
@@ -149,11 +174,17 @@
                             <h2>Artisti più popolari</h2>
                             <div class="artisti">
                                 <div class="col-xs-6 col-md-3 col-lg-2 for-you">
-                                    <img src="spotify/img/youg.jpeg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/youg.jpeg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
                                     <div class="titoli">Lana Del Rey</div>
                                 </div>
                                 <div class="col-xs-6 col-md-3 col-lg-2 for-you">
-                                     <img src="spotify/img/einaudi.jpeg" alt="">
+                                    <div class="song-hover">
+                                        <img src="spotify/img/einaudi.jpeg" alt="">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
                                      <div class="titoli">Ludovico Enaudi</div>
                                  </div>
                              </div>
@@ -196,6 +227,7 @@
                     <div class="temp">0:25</div>
                     <div id="time-bar" class="temp">
                         <div id="moment-bar"></div>
+                        <div class="palla-bianca"></div>
                     </div>
                     <div class="temp">4:30</div>
                 </div>
@@ -207,6 +239,7 @@
                 <i class="fas fa-volume-up"></i>
                 <div id="volume-bar">
                     <div id="momvol-bar"></div>
+                    <div class="palla-bianca"></div>
                 </div>
             </div>
 
